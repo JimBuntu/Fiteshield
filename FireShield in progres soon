@@ -1,4 +1,4 @@
-Dual language ingles y espanol
+
 
 
 
@@ -6,7 +6,7 @@ Requisitos del sistema
 
 Ubuntu 22.04 o superior (probado en 25.10)
 Acceso a internet para descargar dependencias
-Cuenta con permisos sudo
+
 
 permisos e instalacion
 
@@ -19,12 +19,16 @@ python3, python3-gi, python3-pam
 ufw, polkitd, pkexec
 libwebkit2gtk (detecta la versión compatible automáticamente)
 
-Configuracion de permisos de ususario de sernecesario
 
-USER_ACTUAL=$(whoami)
-sudo bash -c "echo '$USER_ACTUAL ALL=(ALL) NOPASSWD: /usr/sbin/ufw' > /etc/sudoers.d/fireshield"
-sudo bash -c "echo '$USER_ACTUAL ALL=(ALL) NOPASSWD: /usr/sbin/ufw *' >> /etc/sudoers.d/fireshield"
-sudo chmod 0440 /etc/sudoers.d/fireshield
+Dual language ingles y espanol
+
+
+Seguridad
+
+SHA 256 
+chmod 444
+chattr -i
+
 
 Desistalacion
 
