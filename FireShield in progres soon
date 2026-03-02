@@ -1,6 +1,12 @@
 Gestor grafico del firewall ufw completo moderno y seguro
 
 
+Hash
+
+SHA-256 oficial:
+6418e4057b1bdb9ce25e1ab426ee0272a2ceac3122c5b106d5bf1ff26d1abe55
+.asc verifica que no a sido modificado 
+
 
 Requisitos del sistema
 
@@ -21,13 +27,6 @@ libwebkit2gtk (detecta la versión compatible automáticamente)
 
 
 Dual language ingles y espanol
-
-
-Seguridad
-
-SHA 256 
-chmod 444
-chattr -i
 
 
 Desistalacion
