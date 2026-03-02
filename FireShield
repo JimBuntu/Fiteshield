@@ -7,6 +7,10 @@ SHA-256 oficial:
 6418e4057b1bdb9ce25e1ab426ee0272a2ceac3122c5b106d5bf1ff26d1abe55
 .asc verifica que no a sido modificado 
 
+gpg --import jimBuntu_public.gpg   # importa tu clave pública
+gpg --verify tu_script.sh.asc tu_script.sh  # verifica
+
+
 
 Requisitos del sistema
 
